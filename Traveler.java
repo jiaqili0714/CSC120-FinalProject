@@ -5,7 +5,7 @@ public class Traveler {
   private String name;
   private String pronouns;
   public ArrayList<String> inventory; 
-  public int points; // total points
+  public int totalPoints; // total points
 
   public Traveler(String name, String pronouns) {
     this.name = name;
