@@ -300,7 +300,15 @@ public class Main {
 
 
         
-        
+        if(totalPoints >= 12){
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "It once belonged to the royal family who sought refuge here. It was said to be a treasured possession of the youngest princess, who played it often to soothe her troubled heart during those trying times.");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("The traveler is intrigued, sensing that there is more to the story.");
+            System.out.println("");
+        }
         
         System.out.println("");
         game.pressReturn();
@@ -316,11 +324,6 @@ public class Main {
         System.out.println("");
         System.out.println("");
         System.out.println("");
-
-
-        if(){
-
-        }
 
 
 

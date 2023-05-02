@@ -4,6 +4,10 @@ public class Inventory {
     public String itemName;
     private HashMap<String, Integer> items;
 
+    public Inventory() {
+        this.items = new HashMap<>();
+    }
+
     public void remove(String itemName) {
         if (items.containsKey(itemName)) {
             items.remove(itemName);
