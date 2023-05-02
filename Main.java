@@ -308,13 +308,105 @@ public class Main {
             game.pressReturn();
             System.out.println("The traveler is intrigued, sensing that there is more to the story.");
             System.out.println("");
+            game.pressReturn();
+            System.out.println("");
+            System.out.println("What happened to the princess and the royal family?");
+            System.out.println("");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "The royal family eventually had to flee again, leaving the castle behind. But the princess had hidden the music box here, hoping that one day someone worthy would find it and unlock its secret.");
+            System.out.println("");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("“What’s `it's secret?`");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("");
+            System.out.println("Nathaniel ponders for a minute, as if contemplating how much more to share.");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "Well, its purpose is to protect whoever is its owner. It protected the princess during her time here, and was a beloved treasure of the entire royal family, who sought refuge here in this very castle from a curse that was chasing them. It is one of many treasures that was left behind along with the castle.");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("So, how did you end up here?");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("Nathaniel prepares to answer yet another of the traveler’s questions, when suddenly, an alarm goes off in the castle.");
+            System.out.println("");
+            game.pressReturn();
         }
-        
+
         System.out.println("");
+        System.out.println("");
+        System.out.println("--------------  Scene 5: Chaos in the Castle --------------");
         game.pressReturn();
 
+        //ENDING NO.1 LOVING NATHANIEL
+        if(totalPoints >=12){
+            System.out.println("");
+            System.out.println("\uD83E\uDD34" + ": " + "Listen traveler, this alarm means that someone has stolen one of the treasures left behind in this castle. They are not meant to fall into the wrong hands.");
+            game.pressReturn();
 
-        System.out.println("");
+            System.out.println("");
+            System.out.println("Who do you think could have stolen this treasure?");
+
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "It could have only been one person.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("Nathaniel runs towards the exit, with the traveler following closely behind. Then, they both come to a halt when they see it: a girl standing not too far in the distance in a long beautiful lilac dress flowing in the wind, holding a treasure, a gold comb, in her hands.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("I can’t believe this, it can’t be!");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("Nathaniel attempts to run quickly towards the girl, and the traveler has no choice but to continue following. Yet, the girl suddenly disappears. Nathaniel and the traveler, out of breath, finally stop again.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("What is going on, Nathaniel?");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "I have been waiting for so long for this moment, traveler. For someone to visit this castle and set me free, for true love. I have not been completely truthful with you traveler, but you have earned my trust now.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("Nathaniel takes a deep breath, and the traveler stares in a confused, but not interrogating way at him. ");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "That girl, once the princess who inhabited this castle, was my sister. I was a member of the royal family, the youngest prince, just as she was the youngest princess. I stayed when the curse caught up to my family, even when it ruined me. However, with you here, I feel rejoiced and anew.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("Nathaniel and the traveler stand in the now calm weather under the shade of the castle, with just the right amount of wind blowing towards them, knowing that together, they can conquer anything.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("You've unlocked Ending No.1 LOVING NATHANIEL");
+            System.out.println("");
+            
+
+
+
+        }if(totalPoints>=9){
+
+            System.out.println("\uD83E\uDD34" + ": " + "");
+            System.out.println("\uD83E\uDD34" + ": " + "");
+            System.out.println("\uD83E\uDD34" + ": " + "");
+            System.out.println("\uD83E\uDD34" + ": " + "");
+            System.out.println("\uD83E\uDD34" + ": " + "");
+
+        }else{
+
+        }
+
+
+
         System.out.println("");
         System.out.println("");
         System.out.println("");
