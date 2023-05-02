@@ -260,21 +260,52 @@ public class Main {
             System.out.println("Nathaniel, I couldn't help but notice the aged music box I found in the bathroom drawer. It seemed quite significant. Can you tell me more about it?");
             System.out.println("");
             game.pressReturn();
+            System.out.println("You hand the music box to Nathaniel. (item music box has been removed from your inventory)");
+            game.pressReturn();
             System.out.println("");
+            System.out.println("Nathaniel like you a little bit more now (points +3)");
+            totalPoints += 3 ;
+            System.out.println("");
+            game.pressReturn();
             System.out.println("Nathaniel's stoic demeanor softens as he gazes at the music box with a fond expression.");
-
-        }else{
+            game.pressReturn();
+            System.out.println("");
+            System.out.println("\uD83E\uDD34" + ": " + "Ah, the music box. It holds a special place in the history of this castle. He takes a moment to collect his thoughts before continuing.");
+            
+        } if(!inventory.hasItem("music box") && totalPoints >= 9){
+            System.out.println("Nathaniel, I saw a music box in the bathroom's drawer. Could you tell me more about it?");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("You hand the music box to Nathaniel. (item music box has been removed from your inventory)");
+            game.pressReturn();
+            System.out.println("");
+            System.out.println("Nathaniel like you a little bit more now (points +3)");
+            totalPoints += 3 ;
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("Nathaniel's stoic demeanor softens as he starts to think about the music box with a fond expression.");
+            game.pressReturn();
+            System.out.println("");
+            System.out.println("\uD83E\uDD34" + ": " + "Ah, the music box. It holds a special place in the history of this castle. He takes a moment to collect his thoughts before continuing.");
+        } else{ // if the player hasn't earned enough points and doesn't have the music box, they will not know the story of the music box
             System.out.println("Nathaniel, I saw a music box in the bathroom's drawer. Could you tell me more about it?");
             System.out.println("");
             game.pressReturn();
             System.out.println("");
-            System.out.println("Nathaniel's stoic demeanor softens as he starts to think about the music box with a fond expression.");
+            System.out.println("As you spoke, Nathaniel's expression changed. His body language shifted and he seemed to be tensing up. You could tell that your words had struck a nerve and he was now reacting emotionally, with his anger directed towards you.");
+            System.out.println("");
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "Enough! I don't want to talk about this...");
         }
+
+
+        
+        
+        
         System.out.println("");
         game.pressReturn();
 
 
-        System.out.println("\uD83E\uDD34" + ": " + "Ah, the music box. It holds a special place in the history of this castle. He takes a moment to collect his thoughts before continuing.");
         System.out.println("");
         System.out.println("");
         System.out.println("");
@@ -285,6 +316,11 @@ public class Main {
         System.out.println("");
         System.out.println("");
         System.out.println("");
+
+
+        if(){
+
+        }
 
 
 
