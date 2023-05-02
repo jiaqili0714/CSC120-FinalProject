@@ -395,27 +395,70 @@ public class Main {
 
         }if(totalPoints>=9){
 
+            System.out.println("\uD83E\uDD34" + ": " + "This alarm goes off when someone has taken one of our precious treasures. Come on, traveler!");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("Nathaniel leads the way to the outside of the castle, where he and the traveler suddenly find a beautiful bracelet laying on the ground. Nathaniel bends down and picks it up, showing it to the traveler.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "Our thief must’ve dropped the treasure they intended to steal, and now that this treasure has been released from the castle, so am I. Thank you traveler, for you have brought good fortune upon this castle and I. I once belonged to the royal family I told you about, and now I have been released from my duties of protecting it from the curse that chased my family.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("The traveler remains stunned, a bit disoriented about what has just occurred, but feels content knowing that they have helped Nathaniel be free.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("I didn’t know you were bound to the castle, Nathaniel. I am not sure that it was me who brought this good fortune upon you and the castle, but whatever it was, I’m glad it happened during my stay.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("\uD83E\uDD34" + ": " + "To you, I will be eternally grateful, traveler. You are the lifelong friend I have searched for.");
+            System.out.println("");
+
             System.out.println("\uD83E\uDD34" + ": " + "");
             System.out.println("\uD83E\uDD34" + ": " + "");
             System.out.println("\uD83E\uDD34" + ": " + "");
             System.out.println("\uD83E\uDD34" + ": " + "");
             System.out.println("\uD83E\uDD34" + ": " + "");
+
+            game.pressReturn();
+            System.out.println("You've unlocked Ending No.2 FRIENDLY NATHANIEL");
+            System.out.println("");
 
         }else{
 
+            System.out.println("\uD83E\uDD34" + ": " + "This alarm is going off because of you, traveler! You have brought great misfortune upon my castle and my family. I was a prince in the royal family that lived here once, and I was put in charge of protecting this castle from our curse. You have distracted me from my purpose, and now you will face the consequences.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("You panicked, begins to back up, but there is nowhere to escape, with the castle right behind them and their lack of knowledge of the location that the castle lies in in the aftermath of this storm. You feel trapped. You realize that Nathaniel, all along, was the bearer of the curse.");
+            System.out.println("");
+
+
+            game.pressReturn();
+            System.out.println("You… you are the curse! You were part of the royal family, and for some reason, you were left behind. You are bitter, and you blame this on me, but this is all your fault!");
+            System.out.println("");
+
+
+            game.pressReturn();
+            System.out.println("The traveler attempts to run, in any direction that they can that’s away from Nathaniel, and gets quite far into the woods, not believing that the Castle of Hearts has gotten them everything besides love.");
+            System.out.println("");
+
+            game.pressReturn();
+            System.out.println("You've unlocked Ending No.3 EVIL NATHANIEL");
+            System.out.println("");
+
         }
 
+        System.out.println("");
+        System.out.println("");
 
-
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
+        System.out.println("Thank you for playing our game!");
+        System.out.println("Best, Jiaqi and Glenvelis");
+       
 
 
 
