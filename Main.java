@@ -418,12 +418,6 @@ public class Main {
             System.out.println("\uD83E\uDD34" + ": " + "To you, I will be eternally grateful, traveler. You are the lifelong friend I have searched for.");
             System.out.println("");
 
-            System.out.println("\uD83E\uDD34" + ": " + "");
-            System.out.println("\uD83E\uDD34" + ": " + "");
-            System.out.println("\uD83E\uDD34" + ": " + "");
-            System.out.println("\uD83E\uDD34" + ": " + "");
-            System.out.println("\uD83E\uDD34" + ": " + "");
-
             game.pressReturn();
             System.out.println("You've unlocked Ending No.2 FRIENDLY NATHANIEL");
             System.out.println("");
