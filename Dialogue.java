@@ -5,6 +5,8 @@ public class Dialogue {
 
     private Scanner scanner = new Scanner(System.in);
     ArrayList<Integer> userChoices = new ArrayList<Integer>();
+    private int redoCounter = 0;
+
 
     // method for displaying simple text dialogue
     public void displayDialogue(String text) {
@@ -32,6 +34,7 @@ public class Dialogue {
         int lastChoice = userChoices.get(userChoices.size() - 1);
         System.out.println(responses[lastChoice - 1]);
         }
+
     
         
     
