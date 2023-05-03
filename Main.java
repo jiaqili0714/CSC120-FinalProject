@@ -13,6 +13,20 @@ public class Main {
         int totalPoints = 0;  
         int redoCounter = 0;
 
+        Thread inputThread = new Thread(() -> {
+            while (true) {
+                String input = scanner.nextLine();
+                if (!input.isEmpty() && !input.matches("[0-9]+|[yYnN]")) {
+                    System.out.println("  ");
+                    System.out.println("  ");
+                    System.out.println("*** This is a dialogue game, so you don't have any command to use unless we instruct you do so ***");
+                    System.out.println("  ");
+                    System.out.println("  ");
+                }
+            }
+        });
+        inputThread.start();
+
         System.out.println("  ");
         System.out.println("Welcome to the Castle of Hearts a legendary castle known for its magical power to bring true love to those who are worthy.");
         System.out.println("   /\\  ");
