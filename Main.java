@@ -390,10 +390,7 @@ public class Main {
             System.out.println("You've unlocked Ending No.1 LOVING NATHANIEL");
             System.out.println("");
             
-
-
-
-        }if(totalPoints>=9){
+        }if(totalPoints>=9 && totalPoints < 12){
 
             System.out.println("\uD83E\uDD34" + ": " + "This alarm goes off when someone has taken one of our precious treasures. Come on, traveler!");
             System.out.println("");
@@ -422,7 +419,7 @@ public class Main {
             System.out.println("You've unlocked Ending No.2 FRIENDLY NATHANIEL");
             System.out.println("");
 
-        }else{
+        }if(totalPoints<9){
 
             System.out.println("\uD83E\uDD34" + ": " + "This alarm is going off because of you, traveler! You have brought great misfortune upon my castle and my family. I was a prince in the royal family that lived here once, and I was put in charge of protecting this castle from our curse. You have distracted me from my purpose, and now you will face the consequences.");
             System.out.println("");
@@ -452,21 +449,6 @@ public class Main {
 
         System.out.println("Thank you for playing our game!");
         System.out.println("Best, Jiaqi and Glenvelis");
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         
 
     }
