@@ -21,6 +21,15 @@ public class Inventory {
         return items.containsKey(itemName);
     }
 
+    public void addItem(String itemName, int quantity) {
+        if (items.containsKey(itemName)) {
+            int currentQuantity = items.get(itemName);
+            items.put(itemName, currentQuantity + quantity);
+        } else {
+            items.put(itemName, quantity);
+        }
+    }
+
 
 }
     
